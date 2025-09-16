@@ -18,7 +18,7 @@ def hapus_layar():
 # Buat jendela utama
 window = tk.Tk()
 window.title("Kalkulator")
-window.geometry("400x450")
+window.geometry("400x500")
 window.resizable(False, False)
 
 # Buat layar input
@@ -35,7 +35,8 @@ tombol_list = [
     ('7', '8', '9', '/'),
     ('4', '5', '6', '*'),
     ('1', '2', '3', '-'),
-    ('0', 'C', '=', '+')
+    ('0', 'C', '=', '+'),
+    ('%', '.')
 ]
 
 # Buat tombol satu persatu
